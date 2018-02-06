@@ -16,6 +16,8 @@
 | git reset --hard 96d0067   | 回退到96d0067（commit_id）开头的版本 |
 | git reflog                 | 查看历史操作命令                   |
 | git checkout -- README.md  | 回滚文件到最后一次add或commit的版本     |
+| git checkout -b dev        | 创建并切换到dev分支                |
+| git branch                 | 查看当前分支                     |
 | git rm                     | 从版本库中删除文件，删除后需要commit      |
 | git push                   | 从本地仓库推送代码到远程仓库             |
 |                            |                            |

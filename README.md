@@ -5,6 +5,7 @@
 | `git init`                        | 初始化仓库目录                    |
 | `git add README.md`               | 添加文件或文件夹到仓库                |
 | `git commit -m "添加自描述文件"`         | 提交修改到仓库，-m后面的参数是日志信息       |
+| `git commit --amend`              | 修改已经提交的注释或日志               |
 | `git status`                      | 查看仓库状态                     |
 | `git diff`                        | 查看文件修改                     |
 | `git diff HEAD -- README.md`      | 对比当前文件与主干文件的修改             |

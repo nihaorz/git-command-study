@@ -17,6 +17,6 @@
 | git reflog                 | 查看历史操作命令                   |
 | git checkout -- README.md  | 回滚文件到最后一次add或commit的版本     |
 | git rm                     | 从版本库中删除文件，删除后需要commit      |
-|                            |                            |
+| git push                   | 从本地仓库推送代码到远程仓库             |
 |                            |                            |
 

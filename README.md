@@ -10,6 +10,7 @@
 | `git diff HEAD -- README.md` | 对比当前文件与主干文件的修改             |
 | `git log`                    | 显示提交日志                     |
 | `git log --pretty=oneline`   | 日志使用一行显示                   |
+| `git log --graph`           | 查看分支合并图                    |
 | `git reset --hard HEAD^`     | 回退到上一个版本                   |
 | `git reset --hard HEAD^`     | 回退到上上一个版本                  |
 | `git reset --hard HEAD~100`  | 回退到上100个版本                 |
@@ -24,5 +25,4 @@
 | `git merge <name>`           | 合并某分支到当前分支                 |
 | `git rm`                     | 从版本库中删除文件，删除后需要commit      |
 | `git push`                   | 从本地仓库推送代码到远程仓库             |
-|                              |                            |
 

@@ -28,7 +28,7 @@
 | `git push`                        | 从本地仓库推送代码到远程仓库             |
 | `git remot`                       | 列出所有远程主机                   |
 | `git remote -v`                   | 列出所有远程主机，同时查看主机地址          |
-| ` git remote show <主机名>`          | 查看指定远程主机主机的详细信息            |
+| `git remote show <主机名>`           | 查看指定远程主机主机的详细信息            |
 | `git remote add <主机名> <网址>`       | 添加远程主机                     |
 | `git remote rm <主机名>`             | 删除远程主机                     |
 | `git remote rename <原主机名> <新主机名>` | 远程主机重命名                    |

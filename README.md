@@ -7,7 +7,7 @@
 | `git commit -m "添加自描述文件"`         | 提交修改到仓库，-m后面的参数是日志信息       |
 | `git commit --amend`              | 修改已经提交的注释或日志               |
 | `git status`                      | 查看仓库状态                     |
-| `git diff`                        | 查看文件修改                     |
+| `git diff`                        | 显示暂存区和工作区的差异               |
 | `git diff HEAD -- README.md`      | 对比当前文件与主干文件的修改             |
 | `git log`                         | 显示提交日志                     |
 | `git log --pretty=oneline`        | 日志使用一行显示                   |

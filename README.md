@@ -8,7 +8,9 @@
 | `git commit --amend`              | 修改已经提交的注释或日志               |
 | `git status`                      | 查看仓库状态                     |
 | `git diff`                        | 显示暂存区和工作区的差异               |
-| `git diff HEAD -- README.md`      | 对比当前文件与主干文件的修改             |
+| `git diff --cached <文件名>`         | 显示暂存区和上一个commit的差异         |
+| `git diff HEAD`                   | 显示工作区与当前分支最新commit之间的差异    |
+| `git diff HEAD -- <文件名>`          | 显示当前文件与主干文件的修改             |
 | `git log`                         | 显示提交日志                     |
 | `git log --pretty=oneline`        | 日志使用一行显示                   |
 | `git log --graph`                 | 查看分支合并图                    |
@@ -32,7 +34,6 @@
 | `git remote add <主机名> <网址>`       | 添加远程主机                     |
 | `git remote rm <主机名>`             | 删除远程主机                     |
 | `git remote rename <原主机名> <新主机名>` | 远程主机重命名                    |
-|                                   |                            |
 |                                   |                            |
 |                                   |                            |
 |                                   |                            |
